@@ -6,7 +6,7 @@ SPECTRESECURITY_DAEMON="/usr/local/bin/spectresecurityd"
 SPECTRESECURITY_CLI="/usr/local/bin/spectresecurity-cli"
 SPECTRESECURITY_REPO="https://github.com/SpectreSecurityCoin/SpectreSecurityMN.git"
 SPECTRESECURITY_PARAMS="https://github.com/SpectreSecurityCoin/SpectreSecurityMN/releases/download/5.6.1/util.zip"
-SPECTRESECURITY_LATEST_RELEASE="https://github.com/SpectreSecurityCoin/SpectreSecurityMN/releases/download/5.6.1/spectresecurity-5.6.1-ubuntu20-daemon.zip"
+SPECTRESECURITY_LATEST_RELEASE="https://github.com/SpectreSecurityCoin/SpectreSecurityMN/releases/download/5.6.1/spectresecurity-5.6.1-ubuntu-20-daemon.zip"
 COIN_BOOTSTRAP='https://bootstrap.spectresecurity.com/boot_strap.tar.gz'
 COIN_ZIP=$(echo $SPECTRESECURITY_LATEST_RELEASE | awk -F'/' '{print $NF}')
 COIN_CHAIN=$(echo $COIN_BOOTSTRAP | awk -F'/' '{print $NF}')
@@ -166,7 +166,7 @@ clear
 function copy_spectresecurity_binaries(){
    cd /root
   wget $SPECTRESECURITY_LATEST_RELEASE
-  unzip spectresecurity-5.6.1-ubuntu20-daemon.zip
+  unzip spectresecurity-5.6.1-ubuntu-20-daemon.zip
   cp spectresecurity-cli spectresecurityd spectresecurity-tx /usr/local/bin >/dev/null
   chmod 755 /usr/local/bin/spectresecurity* >/dev/null
   clear

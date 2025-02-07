@@ -83,7 +83,7 @@ function copy_spectresecurity_binaries(){
   cd /root
   apt-get install build-essential libtool bsdmainutils autotools-dev autoconf pkg-config automake python3 libgmp-dev libevent-dev libboost-all-dev libsodium-dev cargo libminiupnpc-dev libnatpmp-dev libzmq3-dev -y
   wget $SPECTRESECURITY_LATEST_RELEASE
-  unzip spectresecurity-5.6.1-ubuntu18-daemon.zip
+  unzip spectresecurity-5.6.1-ubuntu-18-daemon.zip
   cp spectresecurity-cli spectresecurityd spectresecurity-tx /usr/local/bin >/dev/null
   chmod 755 /usr/local/bin/spectresecurity* >/dev/null
   clear
