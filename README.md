@@ -5,7 +5,7 @@ This guide will assist you in setting up a Game-Frag Masternode on a Linux Serve
 If you require further assistance contact the support team @ [Discord](https://discord.gg/Vzt4U6T)
 ***
 ## Requirements
-1) **10,000 SPectreSecurityMN.**
+1) **10,000 SSMN ( SpectreSecurity Masternode ).**
 2) **A Vultr VPS running Linux Ubuntu 18.04.**
 3) **A Windows local wallet.**
 4) **An SSH client such as [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)**
@@ -102,7 +102,7 @@ If you require further assistance contact the support team @ [Discord](https://d
 * Paste the code below into the Bitvise terminal then press enter (it will just go to a new line)
 ![RootPassEnter](https://i.imgur.com/K6xlnav.png)
 
-`wget -q https://raw.githubusercontent.com/Game-FragProject/masternode-installer/master/ubuntu-18.04-5.6.1-mn-install.sh`
+`wget -q https://raw.githubusercontent.com/SpectreSecurityCoin/SSMN-MN-Installer/refs/heads/main/ubuntu-18.04-5.6.1-mn-install.sh`
 ***
 
 ***Step 8***
