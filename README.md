@@ -1,8 +1,8 @@
-![Coin-Logo](https://github.com/Game-Frag/game-frag-coin/blob/master/share/pixmaps/bitcoin32.png)
-# Game-Frag Masternode Setup Guide (Ubuntu 18.04)
-This guide will assist you in setting up a Game-Frag Masternode on a Linux Server running Ubuntu 18.04. (Use at your own risk)
+![Coin-Logo](https://github.com/SpectreSecurityCoin/SpectreSecurityMN/blob/5.6.1/share/pixmaps/spectresecurity128.png?raw=true) 
+# SpectreSecurity Masternode Setup Guide (Ubuntu 18.04)
+This guide will assist you in setting up a SpectreSecurity Masternode on a Linux Server running Ubuntu 18.04. (Use at your own risk)
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/Vzt4U6T)
+If you require further assistance contact the support team @ [Discord](https://discord.gg/ZdCcmT3K)
 ***
 ## Requirements
 1) **10,000 SSMN ( SpectreSecurity Masternode ).**
