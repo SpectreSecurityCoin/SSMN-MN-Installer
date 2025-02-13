@@ -2,7 +2,7 @@
 # SpectreSecurity Masternode Setup Guide (Ubuntu 18.04)
 This guide will assist you in setting up a SpectreSecurity Masternode on a Linux Server running Ubuntu 18.04. (Use at your own risk)
 
-If you require further assistance contact the support team @ [Discord](https://discord.gg/Vzt4U6T)
+If you require further assistance contact the support team @ [Discord](https://discord.gg/ZdCcmT3K)
 ***
 ## Requirements
 1) **10,000 SSMN ( SpectreSecurity Masternode ).**
